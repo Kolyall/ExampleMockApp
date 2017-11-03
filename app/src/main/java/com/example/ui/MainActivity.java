@@ -59,12 +59,14 @@ public class MainActivity extends AppCompatActivity {
                 .doOnSubscribe(new Action0() {
                     @Override
                     public void call() {
+                        Toast.makeText(MainActivity.this, "show any progress", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "doOnSubscribe: show any progress");
                     }
                 })
                 .doOnTerminate(new Action0() {
                     @Override
                     public void call() {
+                        Toast.makeText(MainActivity.this, "hide any progress", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "doOnTerminate: hide any progress");
                     }
                 })
