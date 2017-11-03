@@ -8,6 +8,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.ui.MainActivity">
 
+    <com.customviewlibrary.CustomImageView
+        android:id="@+id/customImageView"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
     <EditText
         android:id="@+id/emailEditText"
         android:hint="Email"
