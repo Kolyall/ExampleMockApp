@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "data": {
+    "id": "si4uf872nb1sdu83",
+    "name":"Nick",
+    "authHash":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU5ZjIwMzJmYTgyZWZkMzdlMGE2Nzk2OCIsImhhc2giOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJvbGUiOiI1OWNjZjU1YjlmZjg5NmFlYTM1Yzc1ODQiLCJpYXQiOjE1MDk2MjgyODV9.CiBzR4T7tt7tfRW0F-rOy6qknwaSZQZaO4jLpAm5CXU",
+    "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  }
+}
